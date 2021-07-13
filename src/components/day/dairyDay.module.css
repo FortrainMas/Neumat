@@ -1,0 +1,82 @@
+
+.container{
+    background-color: var(--content-bg-color);
+    width: 100%;
+
+    padding: 4%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.container h1, .container h2{
+    color: var(--labels-color)
+}
+
+.content{
+    
+    padding-top: 2% ;
+    padding-left: 5%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content textarea, .tasks{
+    min-width: 70vw;
+    max-width: 70vw;
+    min-height: 2vh;
+
+    background-color: var(--textarea-bg);
+    outline:none;
+    border: none;
+
+    padding: 20px;
+    margin-bottom: 30px;
+
+    font-size: larger
+}
+
+.saveButton{
+    width: 7vw;
+    aspect-ratio: 7/4;
+    background: var(--button-color);
+    
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.saveButton:active{
+    background-color: var(--pressed-button-color);
+}
+
+.tasks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    height: 40%;
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.task input{
+    margin-left: 20px;
+    width: 65vw;
+
+    background: none;
+    border:none;
+    outline:none;
+}

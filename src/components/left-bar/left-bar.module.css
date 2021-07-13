@@ -1,0 +1,29 @@
+.wrapper{
+    display: inline-block;
+    min-width: 200px;
+    padding: 30px;
+    min-height: calc(100vh - 60px);
+
+    background-color: var(--main-color);
+}
+
+.container{
+
+    margin-top: 10vh;
+
+    height: 50vh;
+    width: 100%;
+
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 32%;
+}

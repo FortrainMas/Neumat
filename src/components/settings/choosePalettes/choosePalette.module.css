@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 1%;
+}
+
+.palette{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    transition: 0.1s;
+    border: 6px solid var(--content-bg-color);
+}
+
+.active{
+    border: 6px solid white;
+    transition: 0.1s;
+}

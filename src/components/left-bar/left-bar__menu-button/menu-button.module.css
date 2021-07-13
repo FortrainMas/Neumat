@@ -1,0 +1,12 @@
+.container{
+    
+    text-decoration: none ;
+}
+
+.container h2{
+    color: white;
+}
+
+.active{
+    color: var(--text-third-color) !important;
+}

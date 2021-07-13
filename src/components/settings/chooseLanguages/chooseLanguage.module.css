@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    margin: 1%;
+    width: 100%;
+}
+
+.container h2{
+    color: var(--labels-color);
+}
+
+.languageContainer{
+    width: 17%;
+    padding: 1.5%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.active{
+    background-color: var(--main-color);
+}
+
+.active h2{
+    color: #fff;
+}

@@ -1,0 +1,34 @@
+.palette1{
+    --content-bg-color: #495057;
+    --main-color: #212529;
+    --button-color: #343A40;
+    --pressed-button-color: #212529;
+    --textarea-bg: #343A40;
+    --text-first-color: #fff;
+    --text-second-color: #6C757D;
+    --text-third-color: #6C757D;
+    --labels-color: #fff;
+}
+
+.palette2{
+    --content-bg-color: #a8dadc;
+    --main-color: #e63946;
+    --button-color: #1d3557;
+    --textarea-bg: #1d3557;
+    --pressed-button-color: #a8dadc;
+    --text-first-color: #fff;
+    --text-second-color: #6C757D;
+    --text-third-color: #1d3557;
+    --labels-color: #fff;
+}
+
+.palette3{
+    --content-bg-color: #f4f1de;
+    --main-color: #3d405b;
+    --button-color: #81b29a;
+    --textarea-bg: #3d405b;
+    --pressed-button-color: #a8dadc;
+    --text-second-color: #f4f1de;
+    --text-third-color: #f2cc8f;
+    --labels-color: #81b29a;
+}
